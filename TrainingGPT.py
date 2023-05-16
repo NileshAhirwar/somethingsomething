@@ -69,9 +69,9 @@ st.write("Lead's overall person type: " + persona)
 st.write(random_number)
 # st.write("You said:\n"+transcribe_audio())
 
-st.snow()
+# st.snow()
 
 with st.spinner('Wait for it...'):
     time.sleep(5)
 st.success('Done!')
-st.balloons()
+# st.balloons()
