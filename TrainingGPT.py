@@ -2,7 +2,7 @@ import streamlit as st
 #from IPython.display import Audio
 #from IPython.core.display import display,clear_output
 import requests
-import openai
+#import openai
 import speech_recognition as sr
 import time
 st.sidebar.title('Lead Type Config')
