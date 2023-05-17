@@ -3,6 +3,9 @@ from IPython.display import Audio
 from IPython.core.display import display,clear_output
 import requests
 import openai
+import os
+os.system("pip install pyaudio")
+
 import speech_recognition as sr
 import time
 st.sidebar.title('Lead Type Config')
