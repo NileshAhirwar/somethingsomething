@@ -7,7 +7,7 @@ import os
 import os
 os.system("apt-get install portaudio19-dev")  # For Ubuntu or Debian-based systems
 os.system("pip install --upgrade pip")
-os.system("pip install pyaudio")
+os.system("pip install --global-option='build_ext' --global-option='-I/usr/include' --global-option='-L/usr/lib/x86_64-linux-gnu' pyaudio")
 
 import speech_recognition as sr
 import time
