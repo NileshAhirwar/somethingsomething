@@ -5,7 +5,7 @@ import requests
 import openai
 import speech_recognition as sr
 import time
-st.sidebar.title('Lead_Type_Config')
+st.sidebar.title('Lead Type Config')
 
 lead_type = st.sidebar.selectbox(
     'Lead Type',
