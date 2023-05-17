@@ -1,0 +1,5 @@
+streamlit
+ipython
+requests
+openai
+SpeechRecognition
