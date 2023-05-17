@@ -1,3 +1,4 @@
+pyaudio
 SpeechRecognition
 streamlit
 ipython
