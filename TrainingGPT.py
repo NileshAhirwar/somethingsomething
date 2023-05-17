@@ -4,6 +4,9 @@ from IPython.core.display import display,clear_output
 import requests
 import openai
 import os
+import os
+os.system("apt-get install portaudio19-dev")  # For Ubuntu or Debian-based systems
+os.system("pip install --upgrade pip")
 os.system("pip install pyaudio")
 
 import speech_recognition as sr
