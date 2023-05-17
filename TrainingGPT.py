@@ -4,12 +4,6 @@ from IPython.core.display import display,clear_output
 import requests
 import openai
 import os
-import os
-os.system("apt-get install portaudio19-dev")  # For Ubuntu or Debian-based systems
-os.system("pip install --upgrade pip")
-os.system("pip install --global-option='build_ext' --global-option='-I/usr/include' --global-option='-L/usr/lib/x86_64-linux-gnu' pyaudio")
-os.system("pip install SpeechRecognition")
-
 import speech_recognition as sr
 import time
 st.sidebar.title('Lead Type Config')
