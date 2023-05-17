@@ -8,6 +8,8 @@ import time
 st.sidebar.title('Lead Type Config')
 
 
+xi_api_key = xi_api_key
+
 def get_audio_2(script):
     headers = {
         'xi-api-key': '939a121291c9552d71616e2f99ba244f',
@@ -91,9 +93,9 @@ def should_disconnect_call(last_message):
         return False
     
 
-
+openai_api_key = ''
 def start_call():    
-    openai.api_key = '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'
+    openai.api_key = openai_api_key
 
     
     conversation = [
