@@ -3,4 +3,5 @@ ipython
 requests
 openai
 SpeechRecognition
-PyAudio
+pipwin
+pyaudio
