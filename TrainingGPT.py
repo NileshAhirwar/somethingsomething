@@ -17,7 +17,7 @@ behaviour = st.sidebar.selectbox(
     ('Rude', 'Polite', 'Neutral')
 )
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 persona = 'lead type is '+lead_type +' and on call behaviour is '+behaviour
 persona_for_gpt = 'your are a '+lead_type +' and your on call behaviour is '+behaviour
@@ -80,7 +80,7 @@ def transcribe_audio(attempts=0):
     
 
 def should_disconnect_call(last_message):
-    openai.api_key = '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'
+    openai.api_key = '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'
     TEMP_conversation = [
         {
             'role': 'system',
@@ -109,7 +109,7 @@ def should_disconnect_call(last_message):
 
 
 def start_call():
-    openai.api_key = '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'
+    openai.api_key = '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'
     conversation = [
         {
             'role': 'system',
