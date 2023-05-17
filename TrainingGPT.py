@@ -17,8 +17,6 @@ behaviour = st.sidebar.selectbox(
     ('Rude', 'Polite', 'Neutral')
 )
 
-openai.api_key = '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'
-
 persona = 'lead type is '+lead_type +' and on call behaviour is '+behaviour
 persona_for_gpt = 'your are a '+lead_type +' and your on call behaviour is '+behaviour
 
