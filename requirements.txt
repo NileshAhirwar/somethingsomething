@@ -3,4 +3,3 @@ ipython
 requests
 openai
 pipwin
-SpeechRecognition
