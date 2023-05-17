@@ -3,5 +3,5 @@ ipython
 requests
 openai
 pipwin
-pyaudio
+pyaudio==0.2.13
 SpeechRecognition
