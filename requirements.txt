@@ -2,6 +2,6 @@ streamlit
 ipython
 requests
 openai
-portaudio
+pipwin
 pyaudio
 SpeechRecognition
