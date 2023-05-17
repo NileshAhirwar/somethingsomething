@@ -8,11 +8,11 @@ import time
 st.sidebar.title('Lead Type Config')
 
 
-xi_api_key = xi_api_key
+xi_api_key = ''
 
 def get_audio_2(script):
     headers = {
-        'xi-api-key': '939a121291c9552d71616e2f99ba244f',
+        'xi-api-key': xi_api_key,
         'accept': 'audio/mpeg',
         'Content-Type': 'application/json',
         "model_id": "eleven_monolingual_v1",
