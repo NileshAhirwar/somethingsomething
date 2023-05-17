@@ -1,1 +1,7 @@
-pyaudio
+
+SpeechRecognition
+streamlit
+ipython
+requests
+openai
+pipwin
