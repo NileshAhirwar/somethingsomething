@@ -1,8 +1,6 @@
-pip install --upgrade pip
 streamlit
 ipython
 requests
 openai
 pipwin
-pyaudio==0.2.13
 SpeechRecognition
