@@ -17,13 +17,15 @@ behaviour = st.sidebar.selectbox(
     ('Rude', 'Polite', 'Neutral')
 )
 
+openai.api_key = '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'
+
 persona = 'lead type is '+lead_type +' and on call behaviour is '+behaviour
 persona_for_gpt = 'your are a '+lead_type +' and your on call behaviour is '+behaviour
 
 
 def get_audio_2(script):
     headers = {
-        'xi-api-key': '',
+        'xi-api-key': '54762810afc15fa5d0a035bfc17caab3',
         'accept': 'audio/mpeg',
         'Content-Type': 'application/json',
         "model_id": "eleven_monolingual_v1",
@@ -78,6 +80,7 @@ def transcribe_audio(attempts=0):
     
 
 def should_disconnect_call(last_message):
+    openai.api_key = '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'
     TEMP_conversation = [
         {
             'role': 'system',
@@ -106,20 +109,15 @@ def should_disconnect_call(last_message):
 
 
 def start_call():
-    openai.api_key = ''
-    
+    openai.api_key = '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'
     conversation = [
         {
             'role': 'system',
-            'content': f"""
-This is outbone call to a potential customer of Bajaj Financial Securities Limited whom a caller have called. 
-You will roleplay as customer.
-Now ask different and difficult questions and queries related to product to caller to test their knowledge.
-    {persona_for_gpt}.
+            'content': f"""You are a potiental customer. a caller have called you.
+{persona_for_gpt}.
     """
         }
     ]
-
     # first_prompt = transcribe_audio()
     # if first_prompt == None:
     #     return
