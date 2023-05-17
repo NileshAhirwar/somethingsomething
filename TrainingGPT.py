@@ -23,7 +23,7 @@ persona_for_gpt = 'your are a '+lead_type +' and your on call behaviour is '+beh
 
 def get_audio_2(script):
     headers = {
-        'xi-api-key': '54762810afc15fa5d0a035bfc17caab3',
+        'xi-api-key': '',
         'accept': 'audio/mpeg',
         'Content-Type': 'application/json',
         "model_id": "eleven_monolingual_v1",
@@ -106,7 +106,7 @@ def should_disconnect_call(last_message):
 
 
 def start_call():
-    openai.api_key = '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'
+    openai.api_key = ''
     
     conversation = [
         {
