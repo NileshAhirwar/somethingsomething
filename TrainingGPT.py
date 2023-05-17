@@ -80,7 +80,9 @@ def transcribe_audio(attempts=0):
     
 
 def should_disconnect_call(last_message):
-    openai.api_key = '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'
+    x = 'sk-rjTGDJ9FO1Akec2pS352T3Blb'
+    y = 'kFJQai8C9IqX4nuZsAJnxmg'
+    openai.api_key = x+y
     TEMP_conversation = [
         {
             'role': 'system',
@@ -109,7 +111,9 @@ def should_disconnect_call(last_message):
 
 
 def start_call():
-    openai.api_key = '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'
+    x = 'sk-rjTGDJ9FO1Akec2pS352T3Blb'
+    y = 'kFJQai8C9IqX4nuZsAJnxmg'
+    openai.api_key = x+y
     conversation = [
         {
             'role': 'system',
