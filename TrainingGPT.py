@@ -79,8 +79,8 @@ def transcribe_audio(attempts=0):
     
 
 def should_disconnect_call(last_message):
-    x = 'sk-rjTGDJ9FO1Akec2pS352T3Blb'
-    y = 'kFJQai8C9IqX4nuZsAJnxmg'
+    x = ''
+    y = ''
     openai.api_key = x+y
     TEMP_conversation = [
         {
